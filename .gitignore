@@ -1,0 +1,47 @@
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv
+
+# Data Files (large ECG datasets)
+*.dat
+*.hea
+*.atr
+data/
+raw_data/
+mit-bih-arrhythmia-database/
+
+# Saved Models
+*.pkl
+*.pickle
+models/
+
+# OS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
